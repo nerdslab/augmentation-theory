@@ -13,7 +13,7 @@ Dimensionality reduction is a powerful tool to analyze neural activity at the po
 
 We provide here open-source access to two algorithms designed to tackle this problem: Distribution Alignment Decoding, which uses a brute-force approach to find the optimal transformation; and Hierarchical Wasserstein Alignment, which exploits the tendency of neural distributions to be composed of clusters to find the solution more elegantly. Find below implementations in MATLAB and the Python scientific stack, as well as some sample datasets.
 
-![Overview of Bias-Var-Approx.Err](bias_var_err_v3.pdf)
+![Overview of Bias-Var-Approx.Err decomposition](bias_var_err_v3.pdf)
 
 ## Why alignment?
 Systems neuroscience is currently experiencing a renaissance. Over the past decade our neural recording capabilities have expanded tremendously, and it is now possible to capture the activity of hundreds to thousands of individual neurons simultaneously. The most promising approach to analyzing datasets of this size is to distill the activity of many neurons down to a smaller number of explanatory latent variables. This is usually accomplished by means of the many dimensionality reduction techniques developed in the machine learning community, as well as more specialized variants designed to exploit the temporal properties of dynamical systems. With suitable latent representations for neural activity, we can compare different neural recordings, even if they were made at different times, recorded different groups of neurons, or even came from different subjects.
@@ -32,7 +32,7 @@ In constrast, HiWA leverages computational optimal transport to make use of a mo
 
 Below, we demonstrate how KL and Wasserstein divergence stack up; Wasserstein divergence is shown as the strength of the entropy relaxation applied to it is varied.
 
-![Overview of Bias-Var-Approx.Err](fig1_gen_2.pdf)
+![Overview of Bias-Var-Approx.Err decomposition](bias_var_err_v3.pdf)
 
 #### Contributers
-This project was developed by [Max Dabagia](https://github.com/mdabagia) and [Eva Dyer](https://github.com/evadyer), in [NerDSLab](https://dyerlab.gatech.edu/) at Georgia Tech.
+This project was developed by [Chi-Heng Lin](https://github.com/uldyssian2008), [Chiraag Kaushik], [Eva L. Dyer] and [Vidya Muthukumar] at Georgia Tech.
