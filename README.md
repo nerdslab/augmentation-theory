@@ -18,12 +18,13 @@ and sometimes surprising impacts of DA on generalization, and serves as a testbe
 augmentation design.
 
 #### Effect of data augmentation for linear models
-We show that DA induces two primary effects impacting the model generalization: 1. L2 regularization with intensity equal to the number of training sample and 2. data spectrum manipulations.
+We show that DA induces two primary effects impacting the model generalization: **1. L2 regularization with an intensity equal to the number of training samples** and **2. data spectrum manipulations**. Below, in the left figure, we show the modified data spectrum by random rotation augmentation, while in the right, we record the bias/variance distributions for three kinds of different augmentations, ranging from Gaussian noise injection (N), random mask (M), to random rotations (R).
 
 ![Modified spectrum of random rotation](/images/fig1_rot.png)![Bias/variance distribution](/images/fig1_gen.png)
 
 #### New generalization decomposition
-As opposed to traditional Bias-Variance decomposition, we propose to decompose the MSE into Bias-Variance-Approx.Error for analytical analysis.
+Compared to traditional empirical risk minimization analysis, the generalization analysis requires analyzing a data-dependant regularizer.
+Hence, we propose to decompose the MSE into Bias-Variance-Approx.Error to facilitate the generalization analysis. The approximation error comes from the error of approximating the random regularizer induced by data augmentation with a deterministic matrix. The below figure shows that the approximation error' scale is negligible compared with bias and variance.
 ![Overview of Bias-Var-Approx.Err decomposition](bias_var_err_v3.pdf)
 
 #### Contributers
