@@ -22,7 +22,7 @@ augmentation design.
 #### Effect of data augmentation for linear models
 We show that DA induces two primary effects impacting the model generalization: **1. L2 regularization with an intensity equal to the number of training samples** and **2. data spectrum manipulations**. Below, in the left figure, we show the modified data spectrum by random rotation augmentation, while in the right, we record the bias/variance distributions for three kinds of different augmentations, ranging from Gaussian noise injection (N), random mask (M), to random rotations (R).
 
-![Modified spectrum of random rotation](/images/fig1_rot.png)![Bias/variance distribution](/images/fig1_gen.png)
+![Modified spectrum of random rotation](/images/fig1_rot.png) ![Bias/variance distribution](/images/fig1_gen.png)
 
 #### New generalization decomposition
 Compared to traditional empirical risk minimization analysis, the generalization analysis requires analyzing a data-dependant regularizer.
