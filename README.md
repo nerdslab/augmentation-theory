@@ -32,7 +32,7 @@ In constrast, HiWA leverages computational optimal transport to make use of a mo
 
 Below, we demonstrate how KL and Wasserstein divergence stack up; Wasserstein divergence is shown as the strength of the entropy relaxation applied to it is varied.
 
-![Why Wasserstein distance triumphs over KL divergece](https://raw.githubusercontent.com/nerdslab/PyHiWA/master/wass_div.png)
+![Why Wasserstein distance triumphs over KL divergece](fig1_gen_2.pdf)
 
 #### Contributers
 This project was developed by [Max Dabagia](https://github.com/mdabagia) and [Eva Dyer](https://github.com/evadyer), in [NerDSLab](https://dyerlab.gatech.edu/) at Georgia Tech.
