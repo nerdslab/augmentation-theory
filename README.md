@@ -19,7 +19,7 @@ augmentation design.
 
 #### Effect of data augmentation for linear models
 We show that DA induces two primary effects impacting the model generalization: 1. L2 regularization with intensity equal to the number of training sample and 2. data spectrum manipulations.
-![Overview of Bias-Var-Approx.Err decomposition](/images/fig1rot.pdf)
+![xx](/images/fig1rot.pdf)
 
 #### New generalization decomposition
 As opposed to traditional Bias-Variance decomposition, we propose to decompose the MSE into Bias-Variance-Approx.Error for analytical analysis.
