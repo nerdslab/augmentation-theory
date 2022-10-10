@@ -35,4 +35,4 @@ Below, we demonstrate how KL and Wasserstein divergence stack up; Wasserstein di
 ![Overview of Bias-Var-Approx.Err decomposition](bias_var_err_v3.pdf)
 
 #### Contributers
-This project was developed by [Chi-Heng Lin](https://github.com/uldyssian2008), [Chiraag Kaushik], [Eva L. Dyer] and [Vidya Muthukumar] at Georgia Tech.
+This project was developed by [Chi-Heng Lin](https://github.com/uldyssian2008), Chiraag Kaushik, [Eva L. Dyer](https://github.com/nerdslab) and Vidya Muthukumar at Georgia Tech.
