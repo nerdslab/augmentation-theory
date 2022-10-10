@@ -29,5 +29,16 @@ Compared to traditional empirical risk minimization analysis, the generalization
 Hence, we propose to decompose the MSE into Bias-Variance-Approx.Error to facilitate the generalization analysis. The approximation error comes from the error of approximating the random regularizer induced by data augmentation with a deterministic matrix. The below figure shows that the approximation error' scale is negligible compared with bias and variance.
 ![Overview of Bias-Var-Approx.Err decomposition](bias_var_err_v3.pdf)
 
+## Citation
+If you find the code useful for your research, please consider citing our work:
+
+```
+@{lin2021,
+  title = 	 {The good, the bad and the ugly sides of data augmentation:
+An implicit spectral regularization perspective},
+  author =       {Chi-Heng Lin, Chiraag Kaushik, Eva L. Dyer,∗ & Vidya Muthukumar},
+}
+```
+
 #### Contributers
 This project was developed by [Chi-Heng Lin](https://github.com/uldyssian2008), Chiraag Kaushik, [Eva L. Dyer](https://github.com/nerdslab) and Vidya Muthukumar at Georgia Tech.
