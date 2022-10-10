@@ -1,6 +1,6 @@
 # theory-DA
 
-Repository for theory of data augmentation project. Evaluation notebooks to test different types of augmentations in terms of both their closed-form and dynamics.
+Repository of theory of data augmentation in linear models. Evaluation notebooks to test different types of augmentations in terms of MSE and POE for regression and classification tasks.
 
 # Instructions
 
