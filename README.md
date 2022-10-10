@@ -1,5 +1,7 @@
 
 # Understand Data Augmentations in Linear Models
+
+#### Why data augmentation?
 Data augmentation (DA) is a powerful workhorse for bolstering performance in modern machine
 learning. Specific augmentations like translations and scaling in computer vision are traditionally
 believed to improve generalization by generating new (artificial) data from the same distribution.
