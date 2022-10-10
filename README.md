@@ -36,7 +36,7 @@ If you find the code useful for your research, please consider citing our work:
 @{lin2021,
   title = 	 {The good, the bad and the ugly sides of data augmentation:
 An implicit spectral regularization perspective},
-  author =       {Chi-Heng Lin, Chiraag Kaushik, Eva L. Dyer,∗ & Vidya Muthukumar},
+  author =       {Chi-Heng Lin, Chiraag Kaushik, Eva L. Dyer, & Vidya Muthukumar},
 }
 ```
 
