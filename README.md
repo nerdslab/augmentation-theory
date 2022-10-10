@@ -5,5 +5,4 @@ Repository of theory of data augmentation in linear models. Evaluation notebooks
 # Instructions
 
 A. Visualize the augmented data distribution with tensorboard:
-1. Run the script: tensorboard_visualization.ipynb
-2. Open the command prompt and paste ```shell !tensorboard --logdir=runs``` then click enter, it will output an address linked to the tensorboard.
+viz_MSE_decomposition.ipynb visualizes our proposed decomposition for MSE
