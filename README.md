@@ -32,7 +32,7 @@ In constrast, HiWA leverages computational optimal transport to make use of a mo
 
 Below, we demonstrate how KL and Wasserstein divergence stack up; Wasserstein divergence is shown as the strength of the entropy relaxation applied to it is varied.
 
-![Overview of Bias-Var-Approx.Err decomposition](fig1_gen_x.pdf)
+[Overview of Bias-Var-Approx.Err decomposition](fig1_gen_x.pdf)
 
 #### Contributers
 This project was developed by [Chi-Heng Lin](https://github.com/uldyssian2008), Chiraag Kaushik, [Eva L. Dyer](https://github.com/nerdslab) and Vidya Muthukumar at Georgia Tech.
