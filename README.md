@@ -13,7 +13,7 @@ Dimensionality reduction is a powerful tool to analyze neural activity at the po
 
 We provide here open-source access to two algorithms designed to tackle this problem: Distribution Alignment Decoding, which uses a brute-force approach to find the optimal transformation; and Hierarchical Wasserstein Alignment, which exploits the tendency of neural distributions to be composed of clusters to find the solution more elegantly. Find below implementations in MATLAB and the Python scientific stack, as well as some sample datasets.
 
-![Overview of BGRL](bgrl_arch.png)
+![Overview of BGRL](bias_var_err_v3.pdf)
 
 ## Why alignment?
 Systems neuroscience is currently experiencing a renaissance. Over the past decade our neural recording capabilities have expanded tremendously, and it is now possible to capture the activity of hundreds to thousands of individual neurons simultaneously. The most promising approach to analyzing datasets of this size is to distill the activity of many neurons down to a smaller number of explanatory latent variables. This is usually accomplished by means of the many dimensionality reduction techniques developed in the machine learning community, as well as more specialized variants designed to exploit the temporal properties of dynamical systems. With suitable latent representations for neural activity, we can compare different neural recordings, even if they were made at different times, recorded different groups of neurons, or even came from different subjects.
