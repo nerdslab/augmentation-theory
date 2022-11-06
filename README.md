@@ -1,5 +1,7 @@
 
-# Understand Data Augmentations in Linear Models
+# Understanding Data Augmentation 
+
+Lin, C. H., Kaushik, C., Dyer, E. L., & Muthukumar, V. (2022). The good, the bad and the ugly sides of data augmentation: An implicit spectral regularization perspective. [arXiv preprint arXiv:2210.05021.](https://arxiv.org/abs/2210.05021)
 
 #### Why data augmentation?
 Data augmentation (DA) is a powerful workhorse for bolstering performance in modern machine
